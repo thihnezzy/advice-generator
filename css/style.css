@@ -86,72 +86,11 @@ q {
     -ms-transform: scale(1.1) translate(-25px, -30px);
     -o-transform: scale(1.1) translate(-25px, -30px);
 }
-#border-line{
+
+ #pattern-divider{
     position: absolute;
-    width: 80%;
-    text-align: center;
-    top: 24.4rem;
-}
-
-#border-line::before{
-    position: absolute;
-    content: "";
-    background-color: var(--grayish-blue);
-    display: block;
-    top: 100%;
-    height: 1px;
-    width: 45%;
-}
-
-#border-line::after{
-    position: absolute;
-    content: "";
-    background-color: var(--grayish-blue);
-    display: block;
-    top: 100%;
-    right: 0;
-    height: 1px;
-    width: 45%;
-}
-
-
-
-#stand{
-    text-align: center;
-    width: 80%;
-    height: 10px;
-    color: var(--light-cyan);
-    margin:0;
-    padding: 0;
-}
-
-#stand::before{
-    position: absolute;
-    content: "";
-    border: 0.3rem solid var(--light-cyan);
-    border-radius: 3px;
-    height: 1rem;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    left:48%
-}
-
-#stand::after{
-    position: absolute;
-    content: "";
-    border: 0.3rem solid var(--light-cyan);
-    border-radius: 3px;
-    height: 1rem;
-    right:48%;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    /*margin-right: 1.6rem;
-    */
-}
+    top: 75%;
+ }
 
 .container{
     display: flex;
