@@ -27,12 +27,11 @@ body{
 button:hover,button:active{
     cursor: pointer;
 }
-span {
+h3 {
     font-size: 13px;
     color: var(--neon-green);
     text-transform: uppercase;
     letter-spacing: 4px;
-    place-self: calc(32);
 }
 q {
     position: absolute;
