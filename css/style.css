@@ -27,7 +27,7 @@ body{
 button:hover,button:active{
     cursor: pointer;
 }
-h3 {
+h1 {
     font-size: 13px;
     color: var(--neon-green);
     text-transform: uppercase;
